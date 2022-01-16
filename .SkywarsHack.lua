@@ -18,8 +18,6 @@ local autoFarm = combatTab:CreateToggle("Auto Farm", function()
    if(!killAura) then
       killAura:Toggle()
    end
-
-   
 end)
 
 
