@@ -1,4 +1,4 @@
----@diagnostic disable-next-line: deprecated
+// ---@diagnostic disable-next-line: deprecated
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/exploiting/main/EngoUILIB_V2.lua"))()
 local main = library:CreateMain("Title", "Description", Enum.KeyCode.RightAlt)
 local combatTab = main:CreateTab("Combat")
